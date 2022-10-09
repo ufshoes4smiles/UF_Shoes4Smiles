@@ -48,7 +48,7 @@ const CalendarFeature = () => {
 
   return (
     <Parallax
-      translateX={['-100px', '100px']}
+//       translateX={['-100px', '100px']}
       id="calendar"
       className="w-full h-full grid grid-row-2 py-14 justify-center items-center "
     >
