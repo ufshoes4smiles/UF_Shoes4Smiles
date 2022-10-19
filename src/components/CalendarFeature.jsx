@@ -104,7 +104,7 @@ const CalendarFeature = () => {
           <div>
             <ul className="">
               
-              <li className="p-2 my-3">
+              <li className="">
                <h1 className="text-xl font-bold">Shoe Drive</h1>
                   <p>
                     <span className="font-bold">Date: </span> Oct 17th (Monday) to Nov 18th (Friday)
@@ -116,10 +116,10 @@ const CalendarFeature = () => {
                   <p>
                       <span className="font-bold">Drop-Off Location: </span>
                     <ul>
-                    <li className="list-disc"><span className="font-semibold">Library West</span> - first floor (by escalator),</li>
-                    <li className="list-disc"><span className="font-semibold">Marston Science Library</span> - first floor (by elevator),</li>
-                    <li className="list-disc"><span className="font-semibold">Health Science Library</span> - second floor,</li>
-                    <li className="list-disc"><span className="font-semibold">Florida Gym</span> - second floor (Dean's Office)</li>
+                    <li className="list-disc p-2 my-3"><span className="font-semibold">Library West</span> - first floor (by escalator),</li>
+                    <li className="list-disc p-2 my-3"><span className="font-semibold">Marston Science Library</span> - first floor (by elevator),</li>
+                    <li className="list-disc p-2 my-3"><span className="font-semibold">Health Science Library</span> - second floor,</li>
+                    <li className="list-disc p-2 my-3"><span className="font-semibold">Florida Gym</span> - second floor (Dean's Office)</li>
                     </ul>
                   </p>
               </li>
