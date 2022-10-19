@@ -111,6 +111,7 @@ const CalendarFeature = () => {
                   <p>
                     <span className="font-bold">Time: </span> Anytime
                   </p>
+                    <p>Collecting shoes for donations.</p>
                   <p>
                     <ul>
                     <li><span className="font-bold">Drop-Off Location: </span></li>
@@ -118,11 +119,9 @@ const CalendarFeature = () => {
                     <li><span className="font-semibold">Marston Science Library</span> - first floor (by elevator),</li>
                     <li><span className="font-semibold">Health Science Library</span> - second floor,</li>
                     <li><span className="font-semibold">Florida Gym</span> - second floor (Dean's Office)</li>
-                  
                     </ul>
                   </p>
-                  <p>Collecting shoes for donations.</p>
-              
+                 
               {events.map((event) => (
                 <li key={event.id} className="p-2 my-3">
                   <h1 className="text-xl font-bold">{event.title}</h1>
