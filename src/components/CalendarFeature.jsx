@@ -112,11 +112,14 @@ const CalendarFeature = () => {
                     <span className="font-bold">Time: </span> Anytime
                   </p>
                   <p>
-                    <span className="font-bold">Drop-Off Location: </span>{' '}
-                    <span className="font-semibold">Library West</span> - first floor (by escalator),
-                    <span className="font-semibold">Marston Science Library</span> - first floor (by elevator),
-                    <span className="font-semibold">Health Science Library</span> - second floor,
-                    <span className="font-semibold">Florida Gym</span> - second floor (Dean's Office),
+                    <ul>
+                    <li><span className="font-bold">Drop-Off Location: </span></li>
+                    <li><span className="font-semibold">Library West</span> - first floor (by escalator),</li>
+                    <li><span className="font-semibold">Marston Science Library</span> - first floor (by elevator),</li>
+                    <li><span className="font-semibold">Health Science Library</span> - second floor,</li>
+                    <li><span className="font-semibold">Florida Gym</span> - second floor (Dean's Office)</li>
+                  
+                    </ul>
                   </p>
                   <p>Collecting shoes for donations.</p>
               
