@@ -104,7 +104,7 @@ const CalendarFeature = () => {
           <div>
             <ul className="">
               
-              <li className="">
+              <li className="p-2 my-3">
                <h1 className="text-xl font-bold">Shoe Drive</h1>
                   <p>
                     <span className="font-bold">Date: </span> Oct 17th (Monday) to Nov 18th (Friday)
@@ -114,12 +114,12 @@ const CalendarFeature = () => {
                   </p>
                     <p>Collecting shoes for donations.</p>
                   <p>
-                      <span className="font-bold">Drop-Off Location: </span>
+                      <span className="font-bold">Drop-Off Locations: </span>
                     <ul>
-                    <li className="list-disc p-2 my-3"><span className="font-semibold">Library West</span> - first floor (by escalator),</li>
-                    <li className="list-disc p-2 my-3"><span className="font-semibold">Marston Science Library</span> - first floor (by elevator),</li>
-                    <li className="list-disc p-2 my-3"><span className="font-semibold">Health Science Library</span> - second floor,</li>
-                    <li className="list-disc p-2 my-3"><span className="font-semibold">Florida Gym</span> - second floor (Dean's Office)</li>
+                    <li className="list-disc px-2 mx-2"><span className="font-semibold">Library West</span> - first floor (by escalator),</li>
+                    <li className="list-disc px-2 mx-2"><span className="font-semibold">Marston Science Library</span> - first floor (by elevator),</li>
+                    <li className="list-disc px-2 mx-2"><span className="font-semibold">Health Science Library</span> - second floor,</li>
+                    <li className="list-disc px-2 mx-2"><span className="font-semibold">Florida Gym</span> - second floor (Dean's Office)</li>
                     </ul>
                   </p>
               </li>
