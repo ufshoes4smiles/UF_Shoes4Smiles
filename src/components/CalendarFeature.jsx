@@ -2,14 +2,14 @@ import React from 'react';
 
 const CalendarFeature = () => {
   const events = [
-    {
-      id: 1,
-      title: 'Shoe Drive',
-      date: 'Oct 17th (Monday) to Nov 18th (Friday)',
-      time: '5:00 PM',
-      location: 'Shoe Drive Locations',
-      description: 'Collecting shoes for donations.',
-    },
+//     {
+//       id: 1,
+//       title: 'Shoe Drive',
+//       date: 'Oct 17th (Monday) to Nov 18th (Friday)',
+//       time: '5:00 PM',
+//       location: 'Shoe Drive Locations',
+//       description: 'Collecting shoes for donations.',
+//     },
 //     {
 //       id: 2,
 //       title: 'Second GBM',
@@ -103,6 +103,23 @@ const CalendarFeature = () => {
         <div className="flex lg:hidden md:hidden">
           <div>
             <ul className="">
+              
+               <h1 className="text-xl font-bold">Shoe Drive</h1>
+                  <p>
+                    <span className="font-bold">Date: </span> Oct 17th (Monday) to Nov 18th (Friday)
+                  </p>
+                  <p>
+                    <span className="font-bold">Time: </span> Anytime
+                  </p>
+                  <p>
+                    <span className="font-bold">Drop-Off Location: </span>{' '}
+                    <span className="font-semibold">Library West</span> - first floor (by escalator),
+                    <span className="font-semibold">Marston Science Library</span> - first floor (by elevator),
+                    <span className="font-semibold">Health Science Library</span> - second floor,
+                    <span className="font-semibold">Florida Gym</span> - second floor (Dean's Office),
+                  </p>
+                  <p>Collecting shoes for donations.</p>
+              
               {events.map((event) => (
                 <li key={event.id} className="p-2 my-3">
                   <h1 className="text-xl font-bold">{event.title}</h1>
