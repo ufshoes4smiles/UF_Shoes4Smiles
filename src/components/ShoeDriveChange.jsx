@@ -80,11 +80,12 @@ const ShoeDriveChange = () => {
             and ends on
             <span className="text-blue-500"> November 18th.</span> <br />
             <br />
-            We will be collecting shoes at the following locations:
+            We will be collecting shoes at the following drop-off locations:
             <ul className="list-disc text-blue-500">
-              <li>The Hub</li>
-              <li>Reitz Union</li>
-              <li>UF Bookstore.</li>
+              <li className="px-2 mx-2"><span className="font-semibold">Library West</span> - first floor (by escalator),</li>
+              <li className="list-disc px-2 mx-2"><span className="font-semibold">Marston Science Library</span> - first floor (by elevator),</li>
+              <li className="list-disc px-2 mx-2"><span className="font-semibold">Health Science Library</span> - second floor,</li>
+              <li className="list-disc px-2 mx-2"><span className="font-semibold">Florida Gym</span> - second floor (Dean's Office)</li>
             </ul>
             <br />
             If you are unable to reach the drop off locations, you can also
