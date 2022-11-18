@@ -18,19 +18,19 @@ const CalendarFeature = () => {
 //       location: 'Reitz Union, Room 2360',
 //       description: 'Second General Body Meeting',
 //     },
-        {
-      id: 2,
-      title: 'Trick-Org-Treat',
-      date: 'October 26th, 2022 (Wednesday)',
-      time: '4:00 PM to 8:00 PM',
-      location: 'Plaza of the Americas',
-      description: 'Halloween Themed Organization Fair',
-    },
+//         {
+//       id: 2,
+//       title: 'Trick-Org-Treat',
+//       date: 'October 26th, 2022 (Wednesday)',
+//       time: '4:00 PM to 8:00 PM',
+//       location: 'Plaza of the Americas',
+//       description: 'Halloween Themed Organization Fair',
+//     },
     {
       id: 3,
       title: 'Volunteering with Project Downtown',
       date: 'November 19th, 2022 (Saturday)',
-      time: '2:00 PM',
+      time: '12:30 PM',
       location: 'City Hall',
       description: 'Serving the homeless population of Gainesville.',
     },
@@ -104,25 +104,25 @@ const CalendarFeature = () => {
           <div>
             <ul className="">
               
-              <li className="p-2 my-3">
-               <h1 className="text-xl font-bold">Shoe Drive</h1>
-                  <p>
-                    <span className="font-bold">Date: </span> Oct 17th (Monday) to Nov 18th (Friday)
-                  </p>
-                  <p>
-                    <span className="font-bold">Time: </span> Anytime
-                  </p>
-                    <p>Collecting shoes for donations.</p>
-                  <p>
-                      <span className="font-bold">Drop-Off Locations: </span>
-                    <ul>
-                    <li className="list-disc px-2 mx-2"><span className="font-semibold">Library West</span> - first floor (by escalator),</li>
-                    <li className="list-disc px-2 mx-2"><span className="font-semibold">Marston Science Library</span> - first floor (by elevator),</li>
-                    <li className="list-disc px-2 mx-2"><span className="font-semibold">Health Science Library</span> - second floor,</li>
-                    <li className="list-disc px-2 mx-2"><span className="font-semibold">Florida Gym</span> - second floor (Dean's Office)</li>
-                    </ul>
-                  </p>
-              </li>
+//               <li className="p-2 my-3">
+//                <h1 className="text-xl font-bold">Shoe Drive</h1>
+//                   <p>
+//                     <span className="font-bold">Date: </span> Oct 17th (Monday) to Nov 18th (Friday)
+//                   </p>
+//                   <p>
+//                     <span className="font-bold">Time: </span> Anytime
+//                   </p>
+//                     <p>Collecting shoes for donations.</p>
+//                   <p>
+//                       <span className="font-bold">Drop-Off Locations: </span>
+//                     <ul>
+//                     <li className="list-disc px-2 mx-2"><span className="font-semibold">Library West</span> - first floor (by escalator),</li>
+//                     <li className="list-disc px-2 mx-2"><span className="font-semibold">Marston Science Library</span> - first floor (by elevator),</li>
+//                     <li className="list-disc px-2 mx-2"><span className="font-semibold">Health Science Library</span> - second floor,</li>
+//                     <li className="list-disc px-2 mx-2"><span className="font-semibold">Florida Gym</span> - second floor (Dean's Office)</li>
+//                     </ul>
+//                   </p>
+//               </li>
                  
               {events.map((event) => (
                 <li key={event.id} className="p-2 my-3">
