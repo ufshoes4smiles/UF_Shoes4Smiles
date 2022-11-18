@@ -6,6 +6,7 @@ import Footer2 from './../assets/Pics/footer2.png';
 import { Parallax } from 'react-scroll-parallax';
 
 const Footer = () => {
+  const today = new Date();
   const socials = [
     {
       id: 1,
