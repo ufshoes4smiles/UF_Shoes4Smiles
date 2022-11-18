@@ -78,6 +78,12 @@ const Footer = () => {
             })}
           </div>
         </div>
+         <div>
+          <p className="text-center text-sm">
+            Copyright &copy; Shoes4Smiles {today.getFullYear()}.
+          </p>
+          <p className="text-center text-sm">All Rights Reserved.</p>
+        </div>
       </Parallax>
       <Parallax
         translateX={['-100px', '200px']}
