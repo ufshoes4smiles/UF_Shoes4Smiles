@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
          <div>
           <p className="text-center text-sm">
-            Copyright &copy; Shoes4Smiles {today.getFullYear()}.
+            Copyright &copy; UF Shoes4Smiles {today.getFullYear()}.
           </p>
           <p className="text-center text-sm">All Rights Reserved.</p>
         </div>
