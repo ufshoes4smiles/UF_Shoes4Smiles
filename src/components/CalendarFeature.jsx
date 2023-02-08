@@ -38,19 +38,19 @@ const CalendarFeature = () => {
       id: 4,
       title: 'Shoe Cleaning Event',
       date: 'February 11th, 2023 (Saturday)',
-      time: '12 PM to 3 PM',
+      time: '12 PM to 4 PM',
       location: 'Depot Park',
       description: 'Cleaning shoes for donation.',
     },
 
-    {
-      id: 5,
-      title: 'Volunteering with Boys & Girls Club',
-      date: '0000-00-00 (TBA)',
-      time: '0:00 AM',
-      location: 'TBA',
-      description: 'Spending the day with the youth of Gainesville.',
-    },
+//     {
+//       id: 5,
+//       title: 'Volunteering with Boys & Girls Club',
+//       date: '0000-00-00 (TBA)',
+//       time: '0:00 AM',
+//       location: 'TBA',
+//       description: 'Spending the day with the youth of Gainesville.',
+//     },
 //     {
 //       id: 6,
 //       title: 'Study Social',
