@@ -76,21 +76,21 @@ const ShoeDriveChange = () => {
           <p className=" text-sm md:text-lg lg:text-2xl">
             Every year, we organize a shoe drive in the Gainesville area. 
             We take the shoes that are collected and make sure they are thoroughly cleaned before distributing them to individuals who are in need.
-//             Our shoe
-//             drive starts on <span className="text-blue-500">October 17th</span>{' '}
-//             and ends on
-//             <span className="text-blue-500"> November 18th.</span> <br />
-//             <br />
-//             We will be collecting shoes at the following drop-off locations:
-//             <ul className="list-disc text-blue-500">
-//               <li className="px-2 mx-2"><span className="font-semibold">Library West</span> - first floor (by escalator),</li>
-//               <li className="list-disc px-2 mx-2"><span className="font-semibold">Marston Science Library</span> - first floor (by elevator),</li>
-//               <li className="list-disc px-2 mx-2"><span className="font-semibold">Health Science Library</span> - second floor,</li>
-//               <li className="list-disc px-2 mx-2"><span className="font-semibold">Florida Gym</span> - second floor (Dean's Office)</li>
-//             </ul>
-//             <br />
-//             If you are unable to reach the drop off locations, you can also
-//             message us on our social media pages to arrange a pickup.
+           {/*  Our shoe
+            drive starts on <span className="text-blue-500">October 17th</span>{' '}
+            and ends on
+            <span className="text-blue-500"> November 18th.</span> <br />
+            <br />
+            We will be collecting shoes at the following drop-off locations:
+            <ul className="list-disc text-blue-500">
+              <li className="px-2 mx-2"><span className="font-semibold">Library West</span> - first floor (by escalator),</li>
+              <li className="list-disc px-2 mx-2"><span className="font-semibold">Marston Science Library</span> - first floor (by elevator),</li>
+              <li className="list-disc px-2 mx-2"><span className="font-semibold">Health Science Library</span> - second floor,</li>
+              <li className="list-disc px-2 mx-2"><span className="font-semibold">Florida Gym</span> - second floor (Dean's Office)</li>
+            </ul>
+            <br />
+            If you are unable to reach the drop off locations, you can also
+            message us on our social media pages to arrange a pickup. */}
           </p>
         </div>
       </div>
