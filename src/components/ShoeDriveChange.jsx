@@ -77,19 +77,26 @@ const ShoeDriveChange = () => {
             Our annual shoe drive in the Gainesville community is more than just a collection of footwear. 
             It's an opportunity for us to bring people together and make a positive impact on those in need. 
 The shoe drive is a chance for members of the community to clear out their closets and donate gently used shoes that they no longer wear.
-<br />
 
+<br />
+<br />
+  
 We understand the importance of hygiene and cleanliness, which is why we make sure to clean all of the collected shoes before distributing them. 
 We believe that everyone deserves to have a pair of clean, comfortable shoes to wear.
-<br />
 
+<br />
+<br />
+  
 We partner with local organizations and charities to ensure that the shoes are distributed to those who need them the most. 
 Whether it's a family in need or a homeless individual, we strive to make a difference in as many lives as possible.
-<br />
 
+<br />
+<br />
+  
 Our annual shoe drive is just one of the many ways that we give back to the Gainesville community. 
 We believe in the power of coming together to make a positive impact and are proud to host this event every year.
 <br />
+  <br />
            {/*  Our shoe
             drive starts on <span className="text-blue-500">October 17th</span>{' '}
             and ends on
