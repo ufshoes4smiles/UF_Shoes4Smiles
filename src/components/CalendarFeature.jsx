@@ -34,12 +34,38 @@ const CalendarFeature = () => {
 //       location: 'City Hall',
 //       description: 'Serving the homeless population of Gainesville.',
 //     },
+//     {
+//       id: 4,
+//       title: 'Shoe Cleaning Event',
+//       date: 'February 11th, 2023 (Saturday)',
+//       time: '12 PM to 4 PM',
+//       location: 'Depot Park',
+//       description: 'Cleaning shoes for donation.',
+//     },
+    
     {
-      id: 4,
+      id: 5,
+      title: 'UF Big Event',
+      date: 'March 4th, 2023 (Saturday)',
+      time: '9 AM to 12 PM',
+      location: 'Flavet Field',
+      description: 'Community Service in Gainesville',
+    },
+    
+    {
+      id: 6,
+      title: '5th GBM',
+      date: 'March 6th, 2023 (Monday)',
+      time: '6:30 PM',
+      location: 'Little Hall, Room Lit 0217',
+      description: '5th General Body Meeting',
+     },
+        {
+      id: 6,
       title: 'Shoe Cleaning Event',
-      date: 'February 11th, 2023 (Saturday)',
+      date: 'March 25th, 2023 (Saturday)',
       time: '12 PM to 4 PM',
-      location: 'Depot Park',
+      location: 'Reitz Union',
       description: 'Cleaning shoes for donation.',
     },
 
