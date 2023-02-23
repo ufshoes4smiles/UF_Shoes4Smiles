@@ -4,7 +4,7 @@ import about1 from '../assets/Pics/about1.jpg';
 const About = () => {
   return (
     //  md:mt-6 mt-4 issue
-
+// text-[#EAE3D2]
     <div
       id="about"
       // translateX={['-100px', '100px']}
@@ -15,10 +15,10 @@ const About = () => {
     >
       <div className="bg-[#34B3F1] w-full md:flex md:grid-cols-2 md:p-8 md:m-16 m-0 grid-col-reverse  rounded-2xl   mx-4 p-2">
         <div className="flex flex-col justify-center px-10 md:max-w-[65%] max-w-full ">
-          <h1 className="lg:text-6xl md:text-4xl text-blue-500  text-3xl font-bold py-6 pb-4">
+          <h1 className="lg:text-6xl md:text-4xl text-[#060229]  text-3xl font-bold py-6 pb-4">
             About Us
           </h1>
-          <p className="text-sm md:text-lg lg:text-2xl">
+          <p className="text-sm md:text-lg text-[#060229] lg:text-2xl">
             Shoes 4 Smiles is a student organization dedicated to fundraising
             and providing shoes and other basic necessities to people in local,
             disadvantaged communities. We were founded in 2018 and have donated
