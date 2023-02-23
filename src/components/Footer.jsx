@@ -35,7 +35,7 @@ const Footer = () => {
   ];
   return (
     //
-    <Parallax className="bg-[#060229] h-full w-full justify-between grid-cols-1 grid md:grid-cols-3 items-center  mx-auto py-4 px-3 md:py-16 md:px-4  text-gray-300">
+    <Parallax className="bg-[#060229] h-full w-full justify-between grid-cols-1 grid md:grid-cols-3 items-center  mx-auto py-4 px-3 md:py-16 md:px-4  text-white">
       {/* <div className=""> */}
       {/* <h1 className="pt-1 pb-6 text-5xl lg:text-7xl font-bold logo">
           <span className="text-blue-500">
@@ -70,7 +70,7 @@ const Footer = () => {
                 <a
                   key={id}
                   href={url}
-                  className="duration-300 hover:scale-110 hover:text-blue-500 flex flex-col items-center"
+                  className="duration-300 text-white hover:scale-110 hover:text-orange-400 flex flex-col items-center"
                 >
                   {icon}
                   <span className="text-sm">{text}</span>
@@ -80,10 +80,10 @@ const Footer = () => {
           </div>
         </div>
          <div>
-          <p className="text-center text-sm">
+          <p className="text-center text-white text-sm">
             Copyright &copy; UF Shoes4Smiles {today.getFullYear()}.
           </p>
-          <p className="text-center text-sm">All Rights Reserved.</p>
+          <p className="text-center text-white text-sm">All Rights Reserved.</p>
         </div>
       </Parallax>
       <Parallax
