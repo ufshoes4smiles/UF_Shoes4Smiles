@@ -26,14 +26,14 @@ const JoinChange = () => {
   ];
   return (
     <div
-      // translateX={['-100px', '100px']}
+      // translateX={['-100px', '100px']}  bg-blue-200
       id="join"
       className="w-full h-full flex justify-center items-center mb-8 md:mb-0 mt-20"
       data-aos="fade-down"
       data-aos-duration="600"
       data-aos-delay="300"
     >
-    // bg-blue-200
+   
       <div className="bg-[#34B3F1] w-full md:flex md:grid-cols-2 md:p-8 mb-8 md:mx-16 m-0 grid-col-reverse  rounded-2xl mx-4 p-2">
         <div className="flex flex-col justify-center px-10 md:max-w-[65%] max-w-full pt-10 mt-5">
           <h1 className="lg:text-6xl md:text-4xl text-blue-500 text-3xl font-bold py-6 pb-4">
