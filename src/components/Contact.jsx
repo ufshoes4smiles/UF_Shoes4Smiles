@@ -52,7 +52,7 @@ const Contact = () => {
           className="flex flex-col max-w-[600px] w-full my-5 px-8 "
         >
           <div className="pb-7 group">
-            <h1 className="lg:text-6xl md:text-4xl text-blue-500  text-3xl font-bold py-6 pb-4">
+            <h1 className="lg:text-6xl md:text-4xl text-[#EAE3D2]  text-3xl font-bold py-6 pb-4">
               Contact Us
             </h1>
             <p className="text-md md:text-lg lg:text-2xl text-[#F9F5EB]">
