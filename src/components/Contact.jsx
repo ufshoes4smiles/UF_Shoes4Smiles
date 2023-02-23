@@ -45,7 +45,7 @@ const Contact = () => {
       data-aos-delay="300"
     >
     
-      <div className="bg-[#F9F5EB] rounded-2xl md:mx-0 md:p-0 mx-4 mt-8 flex">
+      <div className="bg-[#607EAA] rounded-2xl md:mx-0 md:p-0 mx-4 mt-8 flex">
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -55,7 +55,7 @@ const Contact = () => {
             <h1 className="lg:text-6xl md:text-4xl text-blue-500  text-3xl font-bold py-6 pb-4">
               Contact Us
             </h1>
-            <p className="text-md md:text-lg lg:text-2xl">
+            <p className="text-md md:text-lg lg:text-2xl text-[#F9F5EB]">
               If you have any questions or would like to get involved, please
               submit the form below or email us at{' '}
               <span className="text-md md:text-lg lg:text-2xl font-bold">
