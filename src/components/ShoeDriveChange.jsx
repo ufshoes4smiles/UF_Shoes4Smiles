@@ -73,7 +73,7 @@ const ShoeDriveChange = () => {
           <h1 className="lg:text-6xl  md:text-4xl text-blue-500  text-3xl font-bold py-6 pb-4">
             Shoe Drive
           </h1>
-          <p className=" text-sm md:text-lg lg:text-2xl">
+          <p className=" text-sm md:text-lg lg:text-2xl text-[#F9F5EB]">
             Our annual shoe drive in the Gainesville community is more than just a collection of footwear. 
             It's an opportunity for us to bring people together and make a positive impact on those in need. 
 The shoe drive is a chance for members of the community to clear out their closets and donate gently used shoes that they no longer wear.
