@@ -23,9 +23,11 @@ function App() {
     });
   });
 
-//   bg-[#ffd5b4]
+//   bg-[#ffd5b4]- peach orange
+  // bg-[#34B3F1] - blue
+  // bg-[#EEEEEE] - gray
   return (
-    <div className="bg-[#34B3F1] overflow-hidden	">
+    <div className="bg-[#EEEEEE] overflow-hidden	">
       <ParallaxProvider>
         <NavbarSide />
         <Hero />
