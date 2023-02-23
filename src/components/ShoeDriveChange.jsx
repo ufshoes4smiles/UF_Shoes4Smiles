@@ -70,7 +70,7 @@ const ShoeDriveChange = () => {
           />
         </div>
         <div className="flex flex-col justify-center px-10 md:max-w-[55%] max-w-full mb-5">
-          <h1 className="lg:text-6xl  md:text-4xl text-blue-500  text-3xl font-bold py-6 pb-4">
+          <h1 className="lg:text-6xl  md:text-4xl text-[#EAE3D2] text-3xl font-bold py-6 pb-4">
             Shoe Drive
           </h1>
           <p className=" text-sm md:text-lg lg:text-2xl text-[#F9F5EB]">
