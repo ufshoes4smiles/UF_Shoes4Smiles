@@ -66,7 +66,7 @@ const CalendarFeature = () => {
       date: 'March 25th, 2023 (Saturday)',
       time: '12 PM to 4 PM',
       location: 'Reitz Union',
-      description: 'Cleaning shoes for donation.',
+      description: 'Cleaning shoes for donation',
     },
 
 //     {
