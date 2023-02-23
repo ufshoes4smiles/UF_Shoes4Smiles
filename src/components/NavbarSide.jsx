@@ -120,7 +120,7 @@ const NavbarSide = () => {
   return (
     // lg screen classes: md:rounded-none md:mt-0  border-[5px] border-orange-600
     <div
-      className="fixed z-front bg-[#000000] shadow-lg  h-[80px] flex justify-between w-screen items-center px-2 pr-4 
+      className="fixed z-front bg-[#13005A] shadow-lg  h-[80px] flex justify-between w-screen items-center px-2 pr-4 
     text-white font-poppins "
     >
       <img
@@ -143,7 +143,7 @@ const NavbarSide = () => {
             >
               <li
                 key={id}
-                className="p-4 hover:text-blue-100 lg:text-[18px]  md:text-sm font-bold duration-300 link link-underline link-underline-black"
+                className="p-4 hover:text-orange-400 lg:text-[18px]  md:text-sm font-bold duration-300 link link-underline link-underline-black"
               >
                 {title}
               </li>
@@ -221,7 +221,7 @@ const NavbarSide = () => {
             return (
               <li
                 key={id}
-                className="w-[180px] h-[60px] flex justify-between items-center ml-[-125px] hover:ml-[-2px] duration-500 rounded-md  bg-[#000000]"
+                className="w-[180px] h-[60px] flex justify-between items-center ml-[-125px] hover:ml-[-2px] duration-500 rounded-md  bg-[#13005A]"
                 // bg-[#f7aa80]
               >
                 <a
