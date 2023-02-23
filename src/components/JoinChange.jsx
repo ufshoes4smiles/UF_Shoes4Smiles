@@ -36,13 +36,13 @@ const JoinChange = () => {
    
       <div className="bg-[#34B3F1] w-full md:flex md:grid-cols-2 md:p-8 mb-8 md:mx-16 m-0 grid-col-reverse  rounded-2xl mx-4 p-2">
         <div className="flex flex-col justify-center px-10 md:max-w-[65%] max-w-full pt-10 mt-5">
-          <h1 className="lg:text-6xl md:text-4xl text-blue-500 text-3xl font-bold py-6 pb-4">
+          <h1 className="lg:text-6xl md:text-4xl text-[#060229] text-3xl font-bold py-6 pb-4">
             Join Us
           </h1>
-          <p className="md:py-3 py-1 font-bold text-blue-500 md:text-3xl text-xl">
+          <p className="md:py-3 py-1 font-bold text-[#060229] md:text-3xl text-xl">
             Looking to get involved?
           </p>
-          <p className="text-sm md:text-lg lg:text-2xl">
+          <p className="text-sm md:text-lg text-[#060229] lg:text-2xl">
             We are always looking for new and dedicated members to join our
             organization! If you are interested in giving back to the community
             then follow our socials to stay up to date on our events and
