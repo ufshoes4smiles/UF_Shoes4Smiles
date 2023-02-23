@@ -13,7 +13,7 @@ const About = () => {
       data-aos-delay="300"
       className="w-full h-full mt-16 mb-0 py-5 flex justify-center items-center "
     >
-      <div className="w-full md:flex md:grid-cols-2 md:p-8 md:m-16 m-0 grid-col-reverse bg-blue-200 rounded-2xl   mx-4 p-2">
+      <div className="bg-[#34B3F1] w-full md:flex md:grid-cols-2 md:p-8 md:m-16 m-0 grid-col-reverse  rounded-2xl   mx-4 p-2">
         <div className="flex flex-col justify-center px-10 md:max-w-[65%] max-w-full ">
           <h1 className="lg:text-6xl md:text-4xl text-blue-500  text-3xl font-bold py-6 pb-4">
             About Us
