@@ -221,7 +221,7 @@ const NavbarSide = () => {
             return (
               <li
                 key={id}
-                className="w-[180px] h-[60px] flex justify-between items-center ml-[-125px] hover:ml-[-2px] duration-500 rounded-md  bg-orange-600"
+                className="w-[180px] h-[60px] flex justify-between items-center ml-[-125px] hover:ml-[-2px] duration-500 rounded-md  bg-[#000000]"
                 // bg-[#f7aa80]
               >
                 <a
