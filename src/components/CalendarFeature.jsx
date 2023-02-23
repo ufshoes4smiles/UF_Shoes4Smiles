@@ -97,7 +97,7 @@ const CalendarFeature = () => {
       className="w-full h-full grid grid-row-2 py-14 justify-center items-center "
     >
       <div className="bg-[#34B3F1] rounded-2xl md:mx-0 md:p-0 mx-4 p-2">
-        <h1 className="lg:text-6xl md:text-4xl text-blue-500 md:px-0  text-3xl font-bold py-6 pb-4 flex justify-center">
+        <h1 className="lg:text-6xl md:text-4xl text-[#060229] md:px-0  text-3xl font-bold py-6 pb-4 flex justify-center">
           Shoes4Smiles Events
         </h1>
         <div className="lg:flex hidden ">
@@ -174,7 +174,7 @@ const CalendarFeature = () => {
                 </p>
               </li> */}
               {events.map((event) => (
-                <li key={event.id} className="p-2 my-3">
+                <li key={event.id} className="p-2 text-[#060229] my-3">
                   <h1 className="text-xl font-bold">{event.title}</h1>
                   <p>
                     <span className="font-bold">Date: </span> {event.date}
