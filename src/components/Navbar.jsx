@@ -146,11 +146,11 @@ const Navbar = () => {
           title: 'Upcoming Events',
           url: 'upcoming-events',
         },
-        {
-          id: 2,
-          title: '404',
-          url: '404',
-        },
+//         {
+//           id: 2,
+//           title: '404',
+//           url: '404',
+//         },
       ],
     },
     {
@@ -196,11 +196,11 @@ const Navbar = () => {
       title: 'Donate',
       url: 'donate',
     },
-    {
-      id: 8,
-      title: '404',
-      url: '404',
-    },
+//     {
+//       id: 8,
+//       title: '404',
+//       url: '404',
+//     },
   ];
 
   return (
