@@ -44,31 +44,31 @@ const Events = () => {
     //       description: 'Cleaning shoes for donation.',
     //     },
 
-    {
-      id: 5,
-      title: 'UF Big Event',
-      date: 'March 4th, 2023 (Saturday)',
-      time: '9 AM to 12 PM',
-      location: 'Flavet Field',
-      description: 'Community Service in Gainesville',
-    },
+//     {
+//       id: 5,
+//       title: 'UF Big Event',
+//       date: 'March 4th, 2023 (Saturday)',
+//       time: '9 AM to 12 PM',
+//       location: 'Flavet Field',
+//       description: 'Community Service in Gainesville',
+//     },
 
-    {
-      id: 6,
-      title: '5th GBM',
-      date: 'March 6th, 2023 (Monday)',
-      time: '6:30 PM',
-      location: 'Room Lit 0217',
-      description: '5th General Body Meeting',
-    },
-    {
-      id: 6,
-      title: 'Shoe Cleaning Event',
-      date: 'March 25th, 2023 (Saturday)',
-      time: '12 PM to 4 PM',
-      location: 'Reitz Union',
-      description: 'Cleaning shoes for donation',
-    },
+//     {
+//       id: 6,
+//       title: '5th GBM',
+//       date: 'March 6th, 2023 (Monday)',
+//       time: '6:30 PM',
+//       location: 'Room Lit 0217',
+//       description: '5th General Body Meeting',
+//     },
+//     {
+//       id: 6,
+//       title: 'Shoe Cleaning Event',
+//       date: 'March 25th, 2023 (Saturday)',
+//       time: '12 PM to 4 PM',
+//       location: 'Reitz Union',
+//       description: 'Cleaning shoes for donation',
+//     },
 
     //     {
     //       id: 5,
@@ -86,6 +86,15 @@ const Events = () => {
     //       location: 'TBA',
     //       description: 'Study session with other members of the club.',
     //     },
+    
+     {
+      id: 6,
+      title: 'No Upcoming Events',
+      date: 'See you this Fall!',
+      time: '⏳⏳⏳',
+      location: '⏳⏳⏳',
+      description: '',
+    },
   ];
 
   return (
