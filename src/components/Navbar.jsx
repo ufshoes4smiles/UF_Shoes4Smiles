@@ -195,6 +195,7 @@ const Navbar = () => {
       id: 7,
       title: 'Donate',
       url: 'https://account.venmo.com/u/jakeflothe',
+      external: true, // Add a flag to indicate it's an external link
     },
 //     {
 //       id: 8,
@@ -338,6 +339,7 @@ const Navbar = () => {
         <nav>
           <ul className="flex flex-col p-8 text-black ml-6 ">
             {/* Populating List for Sidebar */}
+{/*
             {mobileLinks.map(({ id, title, url }) => (
               <Link to={`/${url}`} onClick={() => setSidebar(!sidebar)}>
                 <li
@@ -346,20 +348,36 @@ const Navbar = () => {
                 >
                   {title}
 
-                  {/* <ul className="pl-4">
-                  {' '}
-                  {dropdown &&
-                    dropdown.map(({ id, title, url }) => (
-                      <li key={id} className="py-1">
-                        <Link to={url} className="text-black text-lg">
-                          {title}
-                        </Link>
-                      </li>
-                    ))}
-                </ul> */}
+                  
                 </li>
               </Link>
             ))}
+            
+            */}
+{mobileLinks.map(({ id, title, url, external }) => (
+  <Link
+    key={id}
+    to={`/${url}`}
+    onClick={() => setSidebar(!sidebar)}
+    className="block"
+  >
+    {external ? (
+      <a
+        href={url}
+        className="text-xl font-bold text-orange-500 py-5 flex duration-300 ease-in-out"
+      >
+        {title}
+      </a>
+    ) : (
+      <li
+        className="text-xl font-bold text-orange-500 py-5 flex duration-300 ease-in-out"
+      >
+        {title}
+      </li>
+    )}
+  </Link>
+))}
+
           </ul>
         </nav>
       </div>
