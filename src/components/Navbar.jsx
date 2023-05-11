@@ -194,7 +194,7 @@ const Navbar = () => {
     {
       id: 7,
       title: 'Donate',
-      url: 'donate',
+      url: 'https://account.venmo.com/u/jakeflothe',
     },
 //     {
 //       id: 8,
